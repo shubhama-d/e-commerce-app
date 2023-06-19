@@ -7,7 +7,7 @@ And here's an example of the Azure DevOps YAML pipeline configuration:
 
 # azure-pipeline.yml
 
-trigger:
+#trigger:
   branches:
     exclude:
       - '*'
@@ -98,5 +98,5 @@ stages:
                 az aks get-credentials --resource-group my-aks-resource-group --name my-aks-cluster
 
                 # Deploy Kubernetes manifests
-                kubectl apply -f kubernetes
+                kubectl apply -f kubernetes #
 
