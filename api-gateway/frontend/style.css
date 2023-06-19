@@ -1,0 +1,17 @@
+/* Add your custom CSS styles here */
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #666;
+}
+
+#product-list {
+    margin-bottom: 20px;
+}
+
+#cart-items {
+    border: 1px solid #999;
+    padding: 10px;
+}
